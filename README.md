@@ -7,7 +7,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 2.  Get a complete list of candidates who received votes.
 3.  Calculate the total number of votes each candidate received.
 4.  Calculate the percentage of votes each candidate won.
-5.  Determine the winner of the election based on popular vot.
+5.  Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source: election_results.csv
@@ -28,5 +28,9 @@ The analysis of the election shows that:
   - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
   
 ## Challenge Overview
+We were provided data on an election in Colorado that featured 3 candidates, 3 counties, and 369,711 voters.  Our challenge was to break down the votes by county and by candidate and to determine the winning candidate and the county with the largest turnout.
+
+We had to create a list of counties and a dictionary where county is the key and votes cast for each county were the values.  Inside the with open() function, we had to create "if" statements to print out the voter turnout results.  Results were added to the output file and the results printed to the command line.
 
 ## Challenge Summary
+Successfully completed the challenge, both in printing to the terminal and to the output file.
